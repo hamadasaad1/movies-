@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item-->
+        <!--android:id="@+id/action_setting"-->
+        <!--android:title="@string/action_setting"-->
+        <!--android:orderInCategory="100"-->
+        <!--app:showAsAction="never"/>-->
+    <item
+        android:id="@+id/action_setting2"
+        android:title="Setting"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        >
+        <menu>
+            <item
+                android:id="@+id/menuSortMost_popular"
+                android:title="@string/pref_sort_order_label" />
+            <!--<item-->
+                <!--android:id="@+id/menuSortRating"-->
+                <!--android:title="@string/pref_highest_rated" />-->
+            <!--<item-->
+                <!--android:id="@+id/menuSortFavorite"-->
+                <!--android:title="@string/favorite_movie" />-->
+        </menu>
+
+        </item>
+
+</menu>
